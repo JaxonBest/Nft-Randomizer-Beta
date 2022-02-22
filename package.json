@@ -1,0 +1,15 @@
+{
+  "name": "nft-making-simulator",
+  "version": "1.0.0",
+  "main": "build/index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc",
+    "generate": "node .",
+    "create": "node build/create.js",
+    "init": "node build/init.js"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.19"
+  }
+}
